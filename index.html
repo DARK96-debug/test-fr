@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Realix AI</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <h1>Salom Realix AI</h1>
+  <textarea placeholder="Savol yoz"></textarea>
+  <button>Yuborish</button>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
+</body>
+</html>
